@@ -152,15 +152,9 @@ echo scan the qr code and enjoy bot
 ```
 
 
-## JOIN MY WHATSAPP GROUP
-
-# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Kmb2MgOn3voDqrI2khhYDa)
-
-## MY PERSONAL CHAT
-
-# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/263776558634)
+# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/2348078924441)
 
 
-# > THANKS FOR CHOOSING ZIM BOT WE APPRECIATE YOU FOR YOUR SUPPORT
+# > THANKS FOR CHOOSING LEO BOT WE APPRECIATE YOU FOR YOUR SUPPORT
  
 >>>>>>> d904ae1d (new update)
