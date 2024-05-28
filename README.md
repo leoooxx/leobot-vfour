@@ -1,19 +1,19 @@
 <<<<<<< HEAD
-<a href="https://youtube.com/@zim-bot"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/@zim-bot" /><br>
+<a href="https://youtube.com/@nightpunisher1108"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/@nightpunisher1108" /><br>
 
-# ZIM BOT V4
+# LEO'S BOT V4
 
 ## ``` This Script is for Everyone Don't sell it at high price ```
 ## WATCH TUTORIAL NICELY DON'T SKIP [`YOUTUBE`](https://youtube.com/@zim-bot)
 
-##  ``` Are you Experiencing an error don't hesitate to ask me ``` [`DRIPS`](https://wa.me/+447441437150)
+##  ``` Are you Experiencing an error don't hesitate to ask me ``` [`LEO`](https://wa.me/+2348078924441)
  WhatsApp with so Many features using multi device  [`BAILEYS`](https://github.com/adiwajshing/baileys)
  
- <a href="https://youtube.com/@zim-bot"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/@zim-bot" /><br>
+ <a href="https://youtube.com/@nightpunisher1108"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/@nightpunisher1108" /><br>
  
  ## ```Donate Me```
 
-- [`Paypal`](https://www.paypal.me/zimbotinc)
+- [`Paypal`](https://www.paypal.me/)
  </a>
 </p>
 <p align="center">
@@ -22,8 +22,6 @@
 
 ## [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Kmb2MgOn3voDqrI2khhYDa) [![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
 
-> A Fully PRECIOUS COOL BOT BY DRIPS MEMES <br>
-> 
 ## DONT FORGET TO GIVE A STAR🌟 AND FORK
 
 
@@ -70,13 +68,11 @@ echo scan the qr code and enjoy bot
 ```
 
 
-## JOIN MY WHATSAPP GROUP
 
-# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EFsb8RCXV4jLEFk4eAcA1A)
 
 ## MY PERSONAL CHAT
 
-# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/27634090203)
+# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/2348078924441)
 
 
 # > THANKS FOR CHOOSING ZIM BOT WE APPRECIATE YOU FOR YOUR SUPPORT
@@ -84,26 +80,25 @@ echo scan the qr code and enjoy bot
 =======
 <a href="https://youtu.be/v1UL3fB3bK0"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link="https://youtu.be/v1UL3fB3bK0" /><br>
 
-# ZIM BOT V4 NEW UPDATE
+# LEO'S BOT V4 NEW UPDATE
 
 ## ``` This Script is for Everyone Don't sell it at high price ```
 ## WATCH TUTORIAL NICELY DON'T SKIP [`YOUTUBE`](https://youtu.be/v1UL3fB3bK0)
 
-##  ``` Are you Experiencing an error don't hesitate to ask me ``` [`DRIPS`](https://wa.me/263776558634)
+##  ``` Are you Experiencing an error don't hesitate to ask me ``` [`LEO`](https://wa.me/2348078924441)
  WhatsApp with so Many features using multi device  [`BAILEYS`](https://github.com/adiwajshing/baileys)
  
  <a href="https://youtu.be/v1UL3fB3bK0"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtu.be/v1UL3fB3bK0" /><br>
  
  ## ```Donate Me```
 
-- [`Paypal`](https://www.paypal.me/zimbotinc)
+- [`Paypal`](https://www.paypal.me/)
  </a>
 </p>
 <p align="center">
 <img src="https://i.imgur.com/LbmTdhf.gif" alt="animated"  />
 </p>
 
-## [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Kmb2MgOn3voDqrI2khhYDa) [![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
 
 > A Fully PRECIOUS COOL BOT BY BLESSED TUNA (DRIPS BLENNIE MEMES) <br>
 > 
