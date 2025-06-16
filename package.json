@@ -8,7 +8,6 @@
   },
   "scripts": {
     "start": "node index.js"
-    
   },
   "keywords": [
     "termux",
@@ -24,10 +23,10 @@
   "author": "𝕷𝕰𝕺.py™",
   "license": "MIT",
   "dependencies": {
-    "@adiwajshing/baileys": "^5.0.0",
+    "@adiwajshing/baileys": "^3.5.3",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "^2.0.0",
-    "@mozilla/readability": "^0.4.2",
+    "@mozilla/readability": "^0.6.0",
     "@neoxr/neoxr-js": "^1.3.0",
     "anime-wallpaper": "^1.0.2",
     "anime-wallpapers": "^1.0.1",
@@ -41,7 +40,7 @@
     "cheerio": "^1.0.0-rc.10",
     "child_process": "^1.0.2",
     "crypto": "^1.0.1",
-    "dotenv": "^16.0.0",
+    "dotenv": "^16.5.0",
     "drips-memes": "^6.0.4",
     "emoji-api": "^2.0.1",
     "express": "^4.18.2",
@@ -60,21 +59,21 @@
     "hx-api": "^1.3.2",
     "hxz-api": "^1.0.1",
     "insta-fetcher": "^1.3.24",
-    "jimp": "^0.16.1",
+    "jimp": "^1.6.0",
     "jsdom": "^16.7.0",
     "kitsune-api": "^0.0.0",
     "link-preview-js": "^3.0.4",
     "mathjs": "^10.5.1",
     "moment-timezone": "^0.5.34",
-    "mumaker": "^1.0.0",
     "multistream": "^4.1.0",
+    "mumaker": "^2.0.0",
     "newsapi": "^2.4.1",
     "node-cron": "^3.0.0",
     "node-fetch": "^2.6.1",
     "node-id3": "^0.2.3",
     "node-webpmux": "^3.1.0",
     "node-youtube-music": "^0.8.3",
-    "openai": "^3.1.0",
+    "openai": "^5.3.0",
     "os": "^0.1.2",
     "path": "^0.12.7",
     "perf_hooks": "0.0.1",
@@ -92,12 +91,9 @@
     "url": "^0.11.0",
     "util": "^0.12.4",
     "yargs": "^17.2.1",
-    "yt-search": "^2.10.3",
     "youtube-yts": "^2.0.0",
-    "youtubedl-core": "^4.11.2"
-  },
-  "directories": {
-    "lib": "lib"
+    "youtubedl-core": "^4.11.2",
+    "yt-search": "^2.10.3"
   },
   "repository": {
     "type": "git",
