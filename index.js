@@ -21,6 +21,13 @@
 //
 //┗━━━━━━━━━━━━━━━━━━━━━━━━━
 //
+const cron = require('node-cron');
+// 🕑 Scheduled Shutdown at 2:00 AM daily
+cron.schedule('0 2 * * *', () => {
+  console.log("🛑 Scheduled shutdown at 2AM...");
+  process.exit(0);
+});
+console.log("🔄 LEO-BOT started:", new Date().toLocaleString());
 
 require('dotenv').config();
 console.log(`[✅ BOT ONLINE] ${new Date().toLocaleString()} — Powered by Levanter`);
@@ -737,3 +744,16 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 })
+// Auto shutdown after 2 hours (7200000ms)
+setTimeout(() => {
+  console.log("💤 Bot shutting down after 2 hours...");
+  process.exit(0); // Gracefully stops the process
+}, 2 * 60 * 60 * 1000); // 2 hours
+const cron = require('node-cron');
+
+// 🕑 Shutdown at 2:00 AM every day
+cron.schedule('0 2 * * *', () => {
+  console.log("🛑 Scheduled shutdown @ 2:00 AM");
+  process.exit(0);
+});
+console.log("🔄 LEO-BOT just restarted! Current time:", new Date().toLocaleString());

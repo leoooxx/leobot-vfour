@@ -20,6 +20,8 @@
 //┃I WROTE THIS SCRIPT BY MYSELF THIS SCRIPT IS FOR EVERYONE DONT SELL IT
 //┗━━━━━━━━━━━━━━━━━━━━━━━━━
 //
+console.log("🚀 LEO-BOT is online and ready!");
+
 const fs = require('fs')
 const chalk = require('chalk')
 
