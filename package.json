@@ -1,19 +1,19 @@
 {
-  "name": "zimbot-v4",
+  "name": "𝕷𝕰𝕺 BOT™",
   "version": "4.0.1",
-  "description": "Multi device wa bot created by Zim Bot Inc.",
+  "description": "Multi device wa bot created by 𝕷𝕰𝕺.py™.",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "start": "node --expose-gc index.js"
+    "start": "node index.js"
     
   },
   "keywords": [
     "termux",
     "whatsapp",
-    "2021",
+    "2025",
     "wabase-md",
     "base",
     "baileys-md",
@@ -21,7 +21,7 @@
     "bot-md",
     "multi-device"
   ],
-  "author": "Drips",
+  "author": "𝕷𝕰𝕺.py™",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "^5.0.0",
@@ -106,5 +106,5 @@
   "bugs": {
     "url": "https://github.com/zim-bot/zimbot-v4/issues"
   },
-  "homepage": "https://github.com/zim-bot/zimbot-v4#readme"
+  "homepage": "https://github.com/leoooxx/leobot-vfour#readme"
 }
