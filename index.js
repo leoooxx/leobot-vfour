@@ -1,14 +1,14 @@
 // ⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈
-//▮ZIM BOT INC 2022 ®️ALL RIGHTS RESERVED
+//▮𝕷𝕰𝕺.py™
 //▮
 //▮FORK AND DON'T FORGET TO GIVE A STAR
 //▮
 //▮THIS SOFTWARE IS UNDER UZ COPYRIGHT
 //▮
 //▮REPORT ABUSE OF THIS SOFTWARE EMAIL US
-//▮reinhardtuna@mail.uk
-//▮WHATSAPP US : +44 7441 437150
-//▮YOUTUBE CHANNELL: https://youtube.com/c/DRIPSOFC
+//▮rein
+//▮WHATSAPP US : +234 8078 924 441
+//▮YOUTUBE CHANNELL: http://www.youtube.com/@nightpunisher1108
 //▮
 //╰▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 //
@@ -16,11 +16,21 @@
 //┃THIS SOFTWARE INCLUDES 
 //┃SOME ENCRYPTED FILES
 //┃
-//┃THANKS FOR CHOOSING ZIMBOT
+//┃THANKS FOR CHOOSING US
 //┃I WROTE THIS SCRIPT BY MYSELF THIS SCRIPT IS FOR EVERYONE DONT SELL IT
+//
 //┗━━━━━━━━━━━━━━━━━━━━━━━━━
 //
+const cron = require('node-cron');
+// 🕑 Scheduled Shutdown at 2:00 AM daily
+cron.schedule('0 2 * * *', () => {
+  console.log("🛑 Scheduled shutdown at 2AM...");
+  process.exit(0);
+});
+console.log("🔄 LEO-BOT started:", new Date().toLocaleString());
 
+require('dotenv').config();
+console.log(`[✅ BOT ONLINE] ${new Date().toLocaleString()} — Powered by Levanter`);
 require('./bot')
 const { default: ZimBotIncConnect, useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto , delay} = require("@adiwajshing/baileys")
 const pino = require('pino')
@@ -44,7 +54,7 @@ global.api = (name, path = '/', query = {}, apikeyqueryname) => (name in global.
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 const { say } =  require('cfonts')
 const { color } = require('./lib/color')
-say('ZIM-BOT\nV4', {
+say('BOT', {
     font: '3d',
     colors: ["#0ff",'green',"#ff0"],
     align: 'center',
@@ -56,18 +66,18 @@ say('ZIM-BOT\nV4', {
     maxLenght: '0'
 
   })
-  say(`ZIM-BOT-INC By @${author.name || author}`, {
+  say(`𝕷𝕰𝕺.py™ By @${author.name || author}`, {
     font: 'console',
     align: 'center',
     gradient: ['red', 'green']
   })
 Drips.hr();
-console.log(color(''), color('THANKS FOR CHOOSING ZIM BOT', 'green'))
-console.log(color(''), color('SCRIPT BY DRIPS', 'red'))
-console.log(color( ''), color('https://wa.me/+447441437150','cyan'))
+console.log(color(''), color('THANKS FOR CHOOSING 𝕷𝕰𝕺.py™', 'green'))
+console.log(color(''), color('SCRIPT BY 𝕷𝕰𝕺.py™)
+console.log(color( ''), color('https://wa.me/+2348078924441','cyan'))
 Drips.hr();
-Drips.banner(`DRIPS ZIM BOT OWNER`)
-Drips.ok('WELCOME TO ZIMBOT')
+Drips.banner(`𝕷𝕰𝕺.py™ `)
+Drips.ok('WELCOME TO 𝕷𝕰𝕺™BOT')
 Drips.done('I WROTE THIS SCRIPT BY MYSELF')
 Drips.info('YOU WANNA CONTRUBUTE FEEL FREE TO CONTACT ME, BEING FRIENDLY IS MY LANGUAGE')
 Drips.error('')
@@ -123,8 +133,8 @@ async function startZimBotInc() {
         if (mek.key && mek.key.remoteJid === 'status@broadcast') return
         if (!ZimBotInc.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
         if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
-        m = smsg(ZimBotInc, mek, store)
-        require("./Zimbot")(ZimBotInc, m, chatUpdate, store)
+        m = smsg(LeoBot , mek, store)
+        require("./Zimbot")(leo,Leo, Leobot , chatUpdate, store)
         } catch (err) {
             console.log(err)
         }
@@ -227,12 +237,12 @@ mentions: [num],
 fileName: `HE/SHE IS GONE BRO ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `©ZIM BOT INC 2022`,
+footer: ` 𝕷𝕰𝕺™BOT`,
 buttons: buttons,
 headerType: 4,
 contextInfo: { externalAdReply:{
-title:"ZIM BOT V4",
-body:"SUB DRIPS OFC",
+title:" 𝕷𝕰𝕺™BOT V4",
+body:"Leo",
 showAdAttribution: true,
 mediaType:2,
 thumbnail: mhatadzenyu,
@@ -734,3 +744,16 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 })
+// Auto shutdown after 2 hours (7200000ms)
+setTimeout(() => {
+  console.log("💤 Bot shutting down after 2 hours...");
+  process.exit(0); // Gracefully stops the process
+}, 2 * 60 * 60 * 1000); // 2 hours
+const cron = require('node-cron');
+
+// 🕑 Shutdown at 2:00 AM every day
+cron.schedule('0 2 * * *', () => {
+  console.log("🛑 Scheduled shutdown @ 2:00 AM");
+  process.exit(0);
+});
+console.log("🔄 LEO-BOT just restarted! Current time:", new Date().toLocaleString());

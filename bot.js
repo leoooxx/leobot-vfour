@@ -20,6 +20,8 @@
 //┃I WROTE THIS SCRIPT BY MYSELF THIS SCRIPT IS FOR EVERYONE DONT SELL IT
 //┗━━━━━━━━━━━━━━━━━━━━━━━━━
 //
+console.log("🚀 LEO-BOT is online and ready!");
+
 const fs = require('fs')
 const chalk = require('chalk')
 
@@ -37,19 +39,19 @@ global.APIKeys = {
 global.Api = new (require('./plugins/neoxrApi.js'))(process.env.API_KEY)
 
 //settings
-global.owner = ['+447441437150',''] //owner number ++447441437150
-global.wame = ['+447441437150'] 
-global.pemilik = ['+447441437150'] //owner number ++447441437150
-global.premium = ['+447441437150'] //premium number ++447441437150
-global.pengguna = 'Drips' //username
-global.footer = 'ZIM BOT INC'
-global.botnma = 'ZIM BOT INC' //bot name
-global.botname = 'ZIM BOT V4'
-global.ownernma = 'Drips' //owner name
-global.packname = 'Drips' //sticker package name
-global.author = 'By Drips Memes' //sticker author name
+global.owner = ['+2348078924441',''] //owner number +2348078924441
+global.wame = ['+2348078924441']
+global.pemilik = ['+2348078924441'] //owner number ++2348078924441
+global.premium = ['+2348078924441'] //premium number +2348078924441
+global.pengguna = 'LEO' //username
+global.footer = ' 𝕷𝕰𝕺™BOT'
+global.botnma = ' 𝕷𝕰𝕺™BOT' //bot name
+global.botname = ' 𝕷𝕰𝕺™BOT'
+global.ownernma = '𝕷𝕰𝕺.py™' //owner name
+global.packname = 'LEOGOTBANAGAIN' //sticker package name
+global.author = 'By  𝕷𝕰𝕺™BOT' //sticker author name
 global.sessionName = 'session' //session name
-global.prefa = ['#','!','/',''] //prefix
+global.prefa = ['#','!','/','–'] //prefix
 global.sp = '🔵' //sp
 global.max_upload = 100
 global.dripstyping = false
@@ -77,17 +79,17 @@ global.f5 = 'application/pdf'
 global.f6 = 'application/vnd.android.package-archive'
 global.flaming = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text='
 global.mess = {
-    success: 'Takaenda Done!',
+    success: 'Done!',
     admin: '*This feature is only for admin!*',
-    botAdmin: '*zim bot  must be admin first!*',
-    owner: '*this feature is only for zimbot owner*',
+    botAdmin: '* 𝕷𝕰𝕺™BOT must be admin first!*',
+    owner: '*this feature is only for  𝕷𝕰𝕺™BOT  owner*',
     group: '*Feature is only for groups!*',
     grouponly: '*Group Mode Only*',
     private: 'Features Used Only For Private Chat!',
     bot: 'This feature in only for the bot number',
-    wait: '*whoa wait a moment zim bot proccessing*',
+    wait: '*whoa wait a moment  𝕷𝕰𝕺™BOT  proccessing*',
     endLimit: '*Your daily limit has expired the limit will be reseted every 12 hours*',
-    noPetualang: '*you are not in rpg database type #joinrpg* _ur name_'
+    noPetualang: '*you are not in rpg database type #joinrpg* _your name_'
 }
 global.limitawal = {
     premium: "Infinity", //premium user limit
