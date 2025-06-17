@@ -97,9 +97,6 @@
     "youtube-yts": "^2.0.0",
     "youtubedl-core": "^4.11.2"
   },
-  "directories": {
-    "lib": "lib"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zim-bot/zimbot-v4.git"
