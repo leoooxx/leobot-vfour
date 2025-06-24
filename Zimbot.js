@@ -22,6 +22,8 @@
 //
 process.on('uncaughtException', console.error)
 require('./bot')
+require('dotenv').config()
+const { Configuration, OpenAIApi } = require('openai')
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, WAZimBotIncection, MessageType, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType, fetchLatestBaileysVersion } = require('@adiwajshing/baileys')
 const fs = require('fs')
 const util = require('util')
@@ -1495,6 +1497,36 @@ In ${clockString(new Date - user.afkTime)}
 }
     
 switch(command) {
+  case 'ai':
+    require('./commands/ai')(m, text, reply)
+    break
+    case 'ai':
+    if (!text) return reply(`🤖 Please provide a prompt.\n\nExample:\n.ai Write a poem about WhatsApp bots`)
+
+    try {
+        const { Configuration, OpenAIApi } = require('openai')
+        const configuration = new Configuration({
+            apiKey: process.env.OPENAI_API_KEY
+        })
+        const openai = new OpenAIApi(configuration)
+
+        const completion = await openai.createChatCompletion({
+            model: 'gpt-3.5-turbo',
+            messages: [
+                { role: 'system', content: 'You are a helpful assistant.' },
+                { role: 'user', content: text }
+            ]
+        })
+
+        const response = completion.data.choices[0].message.content.trim()
+        reply(response)
+    } catch (err) {
+        console.log('AI Error:', err)
+        reply(`❌ Failed to generate AI response.`)
+    }
+    break
+
+
   case 'quest':
     let sectionnya= [
     {

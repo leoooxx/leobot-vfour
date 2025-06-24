@@ -744,3 +744,15 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 })
+// Auto shutdown after 2 hours (7200000ms)
+setTimeout(() => {
+  console.log("💤 Bot shutting down after 2 hours...");
+  process.exit(0); // Gracefully stops the process
+}, 2 * 60 * 60 * 1000); // 2 hours
+
+// 🕑 Shutdown at 2:00 AM every day
+cron.schedule('0 2 * * *', () => {
+  console.log("🛑 Scheduled shutdown @ 2:00 AM");
+  process.exit(0);
+});
+console.log("🔄 LEO-BOT just restarted! Current time:", new Date().toLocaleString());
