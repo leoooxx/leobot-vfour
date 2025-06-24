@@ -73,8 +73,8 @@ say('BOT', {
   })
 Drips.hr();
 console.log(color(''), color('THANKS FOR CHOOSING 𝕷𝕰𝕺.py™', 'green'))
-console.log(color(''), color('SCRIPT BY 𝕷𝕰𝕺.py™)
-console.log(color( ''), color('https://wa.me/+2348078924441','cyan'))
+console.log(color(''), color('SCRIPT BY ZIMBOT'))
+console.log(color(''), color('https://wa.me/+2348078924441','cyan'))
 Drips.hr();
 Drips.banner(`𝕷𝕰𝕺.py™ `)
 Drips.ok('WELCOME TO 𝕷𝕰𝕺™BOT')
