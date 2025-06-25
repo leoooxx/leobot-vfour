@@ -730,7 +730,7 @@ ZimBotInc.sendMessageFromContent = async(jid, message, options = {}) => {
     }
             
     return ZimBotInc
-    }
+    })
     
 connectToWhatsApp()
 
