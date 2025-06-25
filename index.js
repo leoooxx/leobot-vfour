@@ -92,7 +92,7 @@ async function startZimBotInc() {
          syncFullHistory: true,
          logger: logg({ level: 'silent' }),
          auth: state,
-         browser: ["ZIM-BOT", "Safari", "3.0"],
+         browser: ["BOT", "Safari", "3.0"],
          patchMessageBeforeSending: (message) => {
                 const requiresPatch = !!(
                     message.buttonsMessage 
@@ -126,6 +126,8 @@ async function startZimBotInc() {
 
     ZimBotInc.ev.on('messages.upsert', async chatUpdate => {
         //console.log(JSON.stringify(chatUpdate, undefined, 2))
+        ZimBotInc.ev.on('messages.upsert', async chatUpdate => {
+  console.log("🔥 Incoming update:", JSON.stringify(chatUpdate, null, 2));
         try {
         mek = chatUpdate.messages[0]
         if (!mek.message) return
@@ -204,12 +206,12 @@ mentions: [num],
 fileName: `WELCOME TO ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `©ZIM BOT INC 2022`,
+footer: ` 𝕷𝕰𝕺™BOT`,
 buttons: buttons,
 headerType: 4,
 contextInfo: { externalAdReply:{
-title:"ZIM BOT V4",
-body:"SUB DRIPS OFC",
+title:" 𝕷𝕰𝕺™BOT",
+body:" 𝕷𝕰𝕺™BOT",
 showAdAttribution: true,
 mediaType:2,
 thumbnail:wangu,
@@ -731,6 +733,7 @@ ZimBotInc.sendMessageFromContent = async(jid, message, options = {}) => {
     }
     
 connectToWhatsApp()
+
 .catch(err => console.log(err))
 }
 
@@ -755,4 +758,4 @@ cron.schedule('0 2 * * *', () => {
   console.log("🛑 Scheduled shutdown @ 2:00 AM");
   process.exit(0);
 });
-console.log("🔄 LEO-BOT just restarted! Current time:", new Date().toLocaleString());
+console.log("🔄 LEO-BOT just restarted! Current time:", new Date().toLocaleString());}
