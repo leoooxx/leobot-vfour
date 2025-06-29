@@ -1,14 +1,15 @@
-FROM fedora:37
+# Use Node official image
+FROM node:18-alpine
 
-RUN sudo dnf -y update &&\
-    sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm &&\
-    sudo dnf install -y git ffmpeg ImageMagick nodejs libwebp yarnpkg &&\
-    sudo dnf clean all -y
-
+# Set working directory
 WORKDIR /zimbot
 
-COPY . /zimbot
+# Install dependencies
+COPY package.json yarn.lock ./
+RUN yarn install
 
-RUN yarn
+# Copy rest of the project
+COPY . .
 
-CMD ["node", "."]
+# Start the bot
+CMD ["node", "--expose-gc", "index.js"]
