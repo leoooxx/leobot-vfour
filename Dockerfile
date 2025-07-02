@@ -1,22 +1,24 @@
-# Use slim variant for smaller image but with apt support
+# Use a base image with apt support
 FROM node:18-slim
 
-# Install git and optional build tools (for native addons)
+# Install Git and required build tools
 RUN apt-get update && apt-get install -y \
-    git \
-    python3 \
-    make \
-    g++ \
-    && rm -rf /var/lib/apt/lists/*
+  git \
+  python3 \
+  make \
+  g++ \
+  && rm -rf /var/lib/apt/lists/*
 
-# Set working dir
+# Set working directory
 WORKDIR /zimbot
 
-# Copy and install deps
-COPY package.json ./
+# Copy dependency manifests first
+COPY package.json package-lock.json* ./
+
+# Install all dependencies (Git is now available)
 RUN npm install
 
-# Copy everything else
+# Copy the full source
 COPY . .
 
 # Start the bot
